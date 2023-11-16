@@ -1,0 +1,115 @@
+<html><head><meta http-equiv="content-type" content="text/html;charset=utf-8">
+
+	<title> বা</>কোডিং </title>
+	<meta name="description" content="Cha Script - চা Script is a programming language in Bengali designed for learning programming.">
+	<meta name="keywords" content="bengali,programming language,programming,bangla,cha,script,cha script">
+	<meta name="robots" content="index,follow">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/hstyle.css" type="text/css" rel="stylesheet">
+  	<script>
+	    $(window).load(function(){
+	      $("#header").sticky({ topSpacing: 0 });
+	    });
+
+    
+  	</script>
+	<script>
+   
+		
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+ 
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+</head>
+
+<body>
+    
+
+ <div id="header-sticky-wrapper" class="sticky-wrapper" style="height: 45px;"><div class="head" id="header" style="">
+          <div id="cnav" class="cnav">
+            <a href = "index.html"><img class="logo" src="images/logo2.png" height="40px"></a>
+            <ul class="pull-right">
+              <li> <a href="index.html"><span class="glyphicon glyphicon-home"></span>  নীড় </a> </li>
+              <li> <a href="code.html"><span class="glyphicon glyphicon-align-left"></span>  বাংলাতে কোড করুন</a></li>
+              <li> <a href="examples.html"><span class="glyphicon glyphicon-list-alt"></span> উদাহরণ দেখুন </a> </li>
+            </ul>
+          </div>
+        </div></div>
+
+	 <div class="container-non-responsive">
+	  
+           <div id="home" style="height: 643px;"> 
+
+        	<div class="inner">
+        		<div class="block">
+                    <div class="row">
+        	     	<div class="col-xs-6">
+        	     		<div class="row intro">
+        	     		<h1><b> বাংলায় কোডিং শিখুন</b> </h1><br> <br>
+						
+						<p>কোডিং শিখতে আমাদের কতই না কষ্ট করতে হয়। <br> 
+						যদি মাতৃভাষায় কোডিং শেখা যায় তাহলে কেমন হয়? <br>
+						আপনি যদি আপনার মাতৃভাষায় কোডিং শেখতে চান <br>
+						তবে তা আপনার জন্য আরো উপকারী হতে পারে। <br>
+						মাতৃভাষায় কোডিং শিখলে  লজিক বের করা সহজ  হয়। <br>
+						সর্বোপরি কনসেপ্টগুলি বুঝতে সহায়ক হয়।</p>
+						
+        	     		</div>
+        	     		<div class="row hbtn">
+        	     		 
+        	     		</div>
+						<a href ="code.html"><button type="button" class="btn btn-primary">বাংলাতে কোড করুন</button></a>
+						<a href="https://avrokeyboardwin.com/" target="blank"><button type="button" class="btn btn-success">অভ্র ডাউনলোড করুন</button></a><br><br>
+						<a href ="https://programming24.school.blog/about-me/" target="blank"><button type="button" class="btn btn-primary"> আমার সম্পর্কে জানুন</button></a>
+
+        	     	</div>
+        	     	<div class="col-xs-6 img">
+        	     		<img src="images/home.png" alt="Home">
+        	     	</div>
+                    </div>
+                    <div class="row" style="margin-top:16px;">
+                    </div>
+        		</div>
+        	</div>
+        </div>
+
+
+<script language="javascript">
+        function autoResizeDiv()
+        {
+            document.getElementById('home').style.height = window.innerHeight +'px';
+             document.getElementById('why').style.height = window.innerHeight +'px';
+              document.getElementById('contact').style.height = window.innerHeight +'px';
+              document.getElementById('cnav').style.width = (window.innerWidth-18) +'px' ;
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+    </script>
+
+
+</div></body></html>
