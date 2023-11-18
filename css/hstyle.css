@@ -150,7 +150,7 @@ div.inner3 {
 div >.inner > .block
 {
 	margin-top: 1px;
-	 background: #dddddd;
+	 background: white;
 	 height:462px;
 	 opacity: 0.70;
   filter:Alpha(opacity=70);
