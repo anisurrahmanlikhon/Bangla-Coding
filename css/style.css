@@ -154,12 +154,12 @@ box-shadow:         1px 1px 11px 0px rgba(50, 50, 50, 0.68);
 .codelines
 {
   background: gray;
-  color:limegreen;
+  color:white;
 }
 
 .linedwrap .codelines .lineno
 {
-  color:limegreen;
+  color:tomato;
 }
 
 textarea
