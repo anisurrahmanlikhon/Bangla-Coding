@@ -155,8 +155,6 @@ box-shadow:         1px 1px 11px 0px rgba(50, 50, 50, 0.68);
 {
   background: gray;
   color:white;
-  opacity: 0.82;
-   filter:Alpha(opacity=82);
 }
 
 .linedwrap .codelines .lineno
