@@ -1,8 +1,8 @@
 
 ## উদাহরণ: 
-### Hello World
+### Hello Bangla Coding
 ```Python
-দেখাও("হ্যালো ওয়ার্ল্ড")
+দেখাও("ওহে বাংলা কোডিং")
 ```
 ### New line ("।ন")
 ```Python
